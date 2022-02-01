@@ -17,3 +17,6 @@ for item in largest_files:
     sorted_dict[item] = dict1[item]
 print(sorted_dict)
 
+print('10 largest files are: ')
+for key in sorted_dict:
+    print(key, ':', sorted_dict[key])
